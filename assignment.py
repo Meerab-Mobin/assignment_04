@@ -18,14 +18,14 @@ print("Your age is:",your_age(current_year,birth_year))
 #area of rectangle
 def area (lenght:int , width:int):
    
-    area= lenght*width
+    area= (lenght )* (width)
     print(area)
 
 print(area)
 lenght=int(input("enter the lenght of rectangle"))
 width=int(input("enter width of ractangle "))
 
-print("are")
+print("area is :",area (lenght , width) )
 
 
 #area of circle 
