@@ -29,11 +29,17 @@ print("area is :",area (lenght , width) )
 
 
 #area of circle 
-def area2 ():
-    r = float(input("radius of the circle: "))
-    pie_of_circle = float(input("pie:   "))
-    area = (r**2)*pie_of_circle
+def area2 (r:int, pie_of_circle:int):
+    
+    area2 = (r**2)*(pie_of_circle)
     print(area)
+ 
+
+print(area2)
+r = float(input(" enter the radius of the circle: "))
+pie_of_circle = float(input("enter the pie:   "))
+
+print("area2 is :" , area2 (r ,pie_of_circle))
 
 #area of cube
 #area=6a**2
