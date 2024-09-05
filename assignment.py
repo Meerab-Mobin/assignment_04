@@ -5,6 +5,9 @@ def your_age  (current_year:int, birth_year:int):
     result_age  = current_year - birth_year
     return  result_age
 
+
+
+
 print("Age calculator!")
 birth_year=int(input("Enter your birth_year:"))
 current_year = 2024
