@@ -78,28 +78,39 @@ print("percentage is " , (obtain_number ,total_number ))
 
 
 #seconds into minutes
-def sacond (variable:int ):
-    variable=int(input("variables:  "))
+def second (variable:int ):
     seconds=(variable)/(60)
     print(seconds)
  
+print(second)
+variable=int(input("variables:  "))
+print("second is ", second (vaiables ))
+
 
 
 
 #minutes into seconds
-def minutes():
-    variable=int(input("variable:  "))
-    minutes= (variable)*(60)
+def minutes(variable2:int):
+    minutes= (variable2)*(60)
     print(minutes)
+
+print(minutes)
+variable2=int(input("variable:  "))
+print("minutes are ", minutes(variable2))
 
 #volume of a cylinder
 #formula :pie r saqure h
-def volume():
+def volume(height):
     height = float(input("heightof a cylinder: "))
     r = float(input("r :  "))
     pie =float(input("pie:  ")) 
     volume =(pie)*(r)**2 *(height)
     print (volume)
+
+
+
+
+
 
 #calculate the BMI
 def BMI ():
