@@ -100,15 +100,16 @@ print("minutes are ", minutes(variable2))
 
 #volume of a cylinder
 #formula :pie r saqure h
-def volume(height):
-    height = float(input("heightof a cylinder: "))
-    r = float(input("r :  "))
-    pie =float(input("pie:  ")) 
+def volume (height:int ,r:float ,pie:float ):
+   
     volume =(pie)*(r)**2 *(height)
     print (volume)
 
-
-
+print(volume)
+height = float(input("heightof a cylinder: "))
+r = float(input("r :  "))
+pie =float(input("pie:  ")) 
+print("volume is ", volume)
 
 
 
