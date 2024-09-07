@@ -11,13 +11,7 @@ else:
 # to check the no. is posiive,negative or zero  
 
 
-
-
-
-if num % +2 == 0 :
-    print("the number is positive ")
-
-elif : 
-    print("the number is zero")
-else :
-    print("the number is negative ")
+def djj ():
+    hjk 
+    kklkl  
+    hjjkkkk 
