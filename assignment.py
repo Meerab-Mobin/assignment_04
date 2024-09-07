@@ -66,11 +66,19 @@ print("celsius is : ", celsius1 ( FRY) )
 
 
 #calculate a percentage
-def percentage():
-    obtain_number =float(input("obtain number:  "))
-    total_number = float(input("total number:  "))
+def percentage(obtain_number:int , total_number: int ):
     percentage = (obtain_number)/(total_number)*(100)
     print(percentage)
+
+print(percentage)
+obtain_number =float(input("obtain number:  "))
+total_number = float(input("total number:  "))
+
+print("percentage is " , (obtain_number ,total_number ))
+
+
+
+
 
 #seconds into minutes
 def sacond():
