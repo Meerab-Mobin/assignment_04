@@ -77,15 +77,15 @@ total_number = float(input("total number:  "))
 print("percentage is " , (obtain_number ,total_number ))
 
 
-
-
-
 #seconds into minutes
-def sacond():
+def sacond (variable:int ):
     variable=int(input("variables:  "))
     seconds=(variable)/(60)
     print(seconds)
  
+
+
+
 #minutes into seconds
 def minutes():
     variable=int(input("variable:  "))
