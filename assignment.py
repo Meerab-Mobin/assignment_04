@@ -55,13 +55,13 @@ print("cube is : ", cube (a , v) )
 
 
 #temp from F to C
-def celsius():
-    FRY=float(input("temp in F:  "))
+def celsius1 (FRY:int , Celsius:int ):
     Celsius =(5) /(9)*(FRY)-(32)
     print(Celsius)
 
-
-
+print(celsius1)
+FRY=float(input("temp in F:  "))
+print("celsius is : ", celsius1 )
 
 
 
