@@ -44,13 +44,14 @@ else :
 age2 :int = int (input("the age 2 is :"))
 if age2 == 12 :
     print("the user is child  ")
-elif age2 == 12-20 : 
+elif age2 == 12_20 : 
     print("the user is teenager ")
-elif age2 ==20-59 :
+elif age2 ==20_59 :
     print("the user is senior ")
 else  :
     print("the user is senior citizen ")
 
-
+ # Enter a month (as a number between 1 and 12).
+ #   Print the number of days in that month. Assume a non-leap year.
 
 
