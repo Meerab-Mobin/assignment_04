@@ -44,10 +44,15 @@ print("area2 is :" , area2 (r , pie_of_circle ))
 #area of cube
 #area=6a**2
 def area_of_cube ():
-    a =float(input("a is equal to: "))
-    v=int(6)
+   
     area_of_cube =(a**2)*v
     print(area_of_cube)
+
+print(area_of_cube)
+a =float(input("a is equal to: "))
+v=int(6)
+print("area_of_cube is : ", area_of_cube (a , v) )
+
 
 #temp from F to C
 def celsius():
