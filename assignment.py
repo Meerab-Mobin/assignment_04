@@ -109,18 +109,18 @@ print(volume)
 height = float(input("heightof a cylinder: "))
 r = float(input("r :  "))
 pie =float(input("pie:  ")) 
-print("volume is ", volume)
+print("volume is ", volume (height, r , pie, ))
 
 
 
 #calculate the BMI
-def BMI ():
-    height =float(input("height: "))
-    weight =float(input("weight: "))
+def BMI (height:float , weight: float ):
     BMI =(weight)/(height)**2
     print(BMI)       
  
- 
- 
+print(BMI)
+height =float(input("height: "))
+weight =float(input("weight: "))
+print("BMI is "  , BMI (height, weight ))
 
 
