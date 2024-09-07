@@ -37,4 +37,20 @@ else :
     print("the user can't vote ")
 
 
-#
+# Write a program that takes the age of a person as input and determines
+#  whether they are a child (0-12 years), teenager (13-19 years), adult (20-59 years),
+#  or senior citizen (60 years and above)
+
+age2 :int = int (input("the age 2 is :"))
+if age2 == 12 :
+    print("the user is child  ")
+elif age2 == 12-20 : 
+    print("the user is teenager ")
+elif age2 ==20-59 :
+    print("the user is senior ")
+else  :
+    print("the user is senior citizen ")
+
+
+
+
