@@ -1,7 +1,7 @@
 # cheking conditional statements no is odd ,even
 
 num:int = int(input("enter the number: "))
-
+d
 if num % 2 == 0 : 
     print("the number is even")
 else: 
