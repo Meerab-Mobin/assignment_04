@@ -21,7 +21,20 @@ else :
 num3:int = int (input("enter no 3 "))
 if num3 % 2 == 0 :
     print ("the num is / of 2 ")
-elif 
+elif num3 == 0 :
     print("no is itself divisible ")
-else num3 % 3 = 0 :
-     print("no is / by 3 ")
+else : 
+    print("no is / by 3 ")
+ 
+
+# user age if pakistani or 18 > can vote 
+age:int = int(input("enter the age: "))
+if age > 18 : 
+    print("the user can vote ")
+elif  age  != "pakistani "  :
+    print(" user is not  pakistani ")
+else : 
+    print("the user can't vote ")
+
+
+#
