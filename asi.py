@@ -10,9 +10,18 @@ else:
 
 # to check the no. is posiive,negative or zero  
 num2:int = int(input("the no : "))
-if num2 == +num2  :
+if num2 > 0  :
   print("no is positive ")
+elif num2 == 0 :
+    print("the num is zero ")
 else :
     print("no is negative ")
       
-#
+#no enter no is / by 2 or 3 or not / by both 
+num3:int = int (input("enter no 3 "))
+if num3 % 2 == 0 :
+    print ("the num is / of 2 ")
+elif 
+    print("no is itself divisible ")
+else num3 % 3 = 0 :
+     print("no is / by 3 ")
