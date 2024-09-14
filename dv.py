@@ -39,3 +39,11 @@ def print_first_25_integers():
         i += 1
 
 
+# 4. Program to print the first 10 even numbers
+def print_first_10_even_numbers():
+    i, count = 1, 0
+    while count < 10:
+        if i % 2 == 0:
+            print(i)
+            count += 1
+        i += 1
