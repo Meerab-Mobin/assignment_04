@@ -29,3 +29,13 @@ def update_item_quantity(item, quantity):
             shopping_cart[i] = (item, quantity)
             break
     return shopping_cart
+
+
+# 3. Program to print the first 25 integers using while loop
+def print_first_25_integers():
+    i = 1
+    while i <= 25:
+        print(i)
+        i += 1
+
+
