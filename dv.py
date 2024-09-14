@@ -57,3 +57,28 @@ def factorial(n):
         n -= 1
     return result
 
+# 6. Program to remove negative numbers from an array
+def remove_negative_numbers(arr):
+    return [num for num in arr if num >= 0]
+
+# 7. Function to calculate the sum of numbers in an array using while loop
+def sum_of_array(arr):
+    i, total = 0, 0
+    while i < len(arr):
+        total += arr[i]
+        i += 1
+    return total
+
+# 8. Program to convert Celsius to Fahrenheit using while loop
+def convert_celsius_to_fahrenheit(celsius_list):
+    fahrenheit_list = []
+    i = 0
+    while i < len(celsius_list):
+        fahrenheit = (celsius_list[i] * 9/5) + 32
+        fahrenheit_list.append(fahrenheit)
+        i += 1
+    return fahrenheit_list
+
+# 9. Program to remove odd numbers from an array
+def remove_odd_numbers(arr):
+    return [num for num in arr if num % 2 == 0]
