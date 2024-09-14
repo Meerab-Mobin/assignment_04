@@ -4,3 +4,8 @@
 
 
 
+# 1. Function to insert a value at a specified index in an array
+def insert_value(arr, index, value):
+    arr.insert(index, value)
+    return arr
+
