@@ -82,3 +82,37 @@ def convert_celsius_to_fahrenheit(celsius_list):
 # 9. Program to remove odd numbers from an array
 def remove_odd_numbers(arr):
     return [num for num in arr if num % 2 == 0]
+
+
+# Example Usage:
+
+# Task 1: Insert value
+arr = [10, 20, 30]
+arr_with_insert = insert_value(arr, 1, 25)
+print(arr_with_insert)
+
+# Task 2: Shopping Cart
+add_item(("Apple", 2))
+add_item(("Banana", 5))
+update_item_quantity("Apple", 3)
+remove_item(("Banana", 5))
+print("Shopping Cart:", shopping_cart)
+
+# Task 3: Print first 25 integers
+print_first_25_integers()
+
+# Task 4: Print first 10 even numbers
+print_first_10_even_numbers()
+
+# Task 5: Factorial of 5
+print("Factorial of 5:", factorial(5))
+
+# Task 6: Remove negative numbers
+print("Without Negatives:", remove_negative_numbers([-1, 2, -3, 4, -5]))
+
+# Task 7: Sum of array
+print("Sum of array:", sum_of_array([1, 2, 3, 4, 5]))
+
+# Task 8: Convert Celsius to Fahrenheit
+print("Fahrenheit:", convert_celsius_to_fahrenheit([0, 20, 37]))
+
