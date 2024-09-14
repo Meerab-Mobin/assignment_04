@@ -47,3 +47,13 @@ def print_first_10_even_numbers():
             print(i)
             count += 1
         i += 1
+
+
+# 5. Function to calculate factorial of a number using while loop
+def factorial(n):
+    result = 1
+    while n > 1:
+        result *= n
+        n -= 1
+    return result
+
