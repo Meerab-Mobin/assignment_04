@@ -1,0 +1,11 @@
+errors 
+synthex error == system tell us about it 
+logical error == system cnnot detect  only programmer can 
+runtime error == program crash kar jata ha or iss kay liye try or except use kartay hai 
+try ,except #like if and else 
+except # ZerodivisionError:                       
+
+class #parent 
+supar 
+constructre 
+object 
